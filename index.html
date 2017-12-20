@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>电信信用购机</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      var baseurl="http://192.168.19.140:8080";
+      window.addEventListener('error', function (e) {
+          alert(`${e.filename}\n${e.lineno}\n${e.message}`);
+      }, false);  
+    </script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <!-- <script src="http://alloyteam.github.io/AlloyLever/alloy_lever.js"></script> -->
+    <script src="./dist/build.js"></script>
+</html>

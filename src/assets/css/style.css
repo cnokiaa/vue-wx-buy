@@ -1,0 +1,159 @@
+html {
+  font-size: 100px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.05em;
+  color: #666;
+  background: #efeff4;
+}
+img {
+	width: 100%;
+}
+[data-dpr="1"] div {
+    font-size: 12px;
+}
+[data-dpr="2"] div {
+    font-size: 24px;
+}
+
+[data-dpr="3"] div {
+    font-size: 36px;
+}
+.disabled{
+	pointer-events: none;
+}
+.flex-wrap {
+	display: flex;
+}
+.flex-item {
+	flex: 1;
+}
+/* list */
+.list-header {
+	position: relative;
+	display: flex;
+	color: #333;
+	padding: .3rem .2rem;
+}
+.list-body {
+	background-color: #fff;
+	padding-left: .4rem;
+}
+.list-item {
+	position: relative;
+	display: flex;
+	padding: 0 .3rem;
+	min-height: 1rem;
+	border-bottom: 1px solid #edecef;	
+	align-items: center;
+	vertical-align: middle;
+  overflow: hidden;
+}
+.list-link:active {
+	background-color: #ddd;
+}
+.list-item .item-main {
+	flex: 1;
+}
+.list-item .item-end {
+	text-align: right;
+}
+.list-item .item-label {
+	display: block;
+  width: 5.5em;
+  margin-right: .2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.list-item .item-thumb {
+	/* 图片或者icon样式 */
+}
+.list-item input {
+	width: 100%;
+	height: 1rem;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  background-color: transparent;
+}
+.list-item .arrow {
+	width: .4rem;
+	height: .7rem;
+	background: none;
+}
+.list-item .btn {
+  width: 4rem;
+  height: 1.6rem;
+  background-color: #3db3f9;
+  color: #fff;
+}
+.agreement {
+	margin: .3rem .2rem;
+}
+.agreement input {
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+	margin-right: .1rem;
+}
+.agreement a {
+	color: #319aff;
+}
+.icon-back {
+	display: inline-block;
+	width: .3rem;
+	height: .5rem;
+	background: url(../images/back.png) 0 0 /100% 100% no-repeat ;
+	vertical-align: middle;
+}
+.icon-arrow {
+	display: block;
+	width: .15rem;
+	height: .32rem;
+	background: url(../images/arrow.png) 0 0 /100% 100% no-repeat ;
+}
+.icon-done {
+	display: block;
+	width: .7rem;
+	height: .7rem;
+	background: url(../images/right.png) 0 0 /100% 100% no-repeat ;
+}
+.icon-mark {
+	display: inline-block;
+	width: .5rem;
+	height: .5rem;
+	background: url(../images/mark.png) 0 0 /100% 100% no-repeat ;
+}
+.icon-close {
+	display: block;
+	width: 1.2em;
+	height: 1.2em;
+	background: url(../images/close.png) 0 0 /100% 100% no-repeat ;
+}
+.btn{
+	display: block;
+	line-height: 1.2rem;
+	margin: .3rem 0.2rem;
+	background-color: #3db3f9;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.1rem;
+	border: 0;
+}
+.btn:active{
+	background-color: #2ca2e8;
+}
+.fade-transition{
+  transition: transform,opacity .3s ease;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}

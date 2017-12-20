@@ -1,0 +1,93 @@
+body, div,
+dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, code, form,
+fieldset, legend, input, textarea,
+p, blockquote, th, td,
+header, hgroup, nav, section, article, aside, footer,
+figure, figcaption, button {
+  margin: 0;
+  padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+*:not(input,textarea) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ol, ul, li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th {
+  text-align: left;
+}
+em, i {
+  font-style: normal;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+   background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -webkit-touch-callout: none;
+}
